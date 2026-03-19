@@ -1,6 +1,6 @@
 # parallel-rsync
 
-A bash for running multiple `rsync` transfers in parallel across a set of directories.
+A bash script for running multiple `rsync` transfers in parallel across a set of directories.
 
 ## Why parallel rsync?
 
