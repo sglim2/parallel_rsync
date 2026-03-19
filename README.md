@@ -42,10 +42,11 @@ Parallelisation may **impact performance** if:
   -D <DST_BASE> \
   [-j JOBS] \
   [-X DIRNAME ...]
+```
 
 ## Example
 
-```
+```bash
 ./parallel_rsync.sh \
   -s 192.168.10.21 \
   -S /mnt/archive \
@@ -57,7 +58,7 @@ Parallelisation may **impact performance** if:
 ## Logs
 
 Logs are written per directory to:
-```
+```bash
 /tmp/parallel_rsync-<timestamp>/
 ```
 Each directory has its own log file, making it easy to retry or debug individual transfers.
